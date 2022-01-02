@@ -1,0 +1,31 @@
+<mat-card>
+    <mat-card-title>Log In</mat-card-title>
+    <mat-card-content>
+        <form [formGroup]="myLoginForm" (ngSubmit)="loggedInForm()" novalidate>
+            <mat-form-field class="example-full-width">
+                <input matInput type="email" placeholder="Email" formControlName="email">
+        
+                <!--Error-->
+                
+                 <mat-error *ngIf="myFormControl.email.touched && !myFormControl.email.valid">
+                    You must provide valid email
+                 </mat-error>
+        
+              </mat-form-field>
+            
+              <mat-form-field class="example-full-width">
+                <input matInput type="password" placeholder="Password" formControlName="password">
+        
+                 <!--Error-->
+              <mat-error>
+                You must provide a Password
+             </mat-error>
+              </mat-form-field>
+             
+        
+              <div class="button-wrapper">
+                <button mat-flat-button [disabled]="!myLoginForm.valid" color="primary">Log In</button>
+              </div>
+          </form>
+    </mat-card-content>
+</mat-card>

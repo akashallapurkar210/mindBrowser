@@ -1,0 +1,132 @@
+{
+  "mangerList": [
+    {
+      "id": 1,
+      "email": "akash1@gmail.com",
+      "fname": "Akash",
+      "lname": "Allapurkar",
+      "password": "13123123",
+      "dob": "1993/10/02",
+      "address": "test"
+    },
+    {
+      "id": 2,
+      "email": "akash2@gmail.com",
+      "fname": "Akash",
+      "lname": "Allapurkar",
+      "password": "13123123",
+      "dob": "1993/10/02",
+      "address": "test"
+    },
+    {
+      "id": 3,
+      "email": "akash3@gmail.com",
+      "fname": "Akash",
+      "lname": "Allapurkar",
+      "password": "13123123",
+      "dob": "1993/10/02",
+      "address": "test"
+    },
+    {
+      "id": 4,
+      "email": "akash4@gmail.com",
+      "fname": "Akash",
+      "lname": "Allapurkar",
+      "password": "13123123",
+      "dob": "1993/10/02",
+      "address": "test"
+    },
+    {
+      "email": "akash@gmail.com",
+      "fname": "Akash",
+      "lname": "allapurkar",
+      "password": "123456",
+      "address": "Pune",
+      "dob": "1993-10-01T18:30:00.000Z",
+      "id": 5
+    },
+    {
+      "email": "akash@text.com",
+      "fname": "Akash",
+      "lname": "All",
+      "password": "123456",
+      "address": "adf",
+      "dob": "2021-12-31T18:30:00.000Z",
+      "id": 6
+    },
+    {
+      "email": "admin@gmail.com",
+      "fname": "Admin",
+      "lname": "Admin2",
+      "password": "12345",
+      "address": "Pune",
+      "dob": "1993-10-01T18:30:00.000Z",
+      "id": 7
+    },
+    {
+      "email": "admin@test.com",
+      "fname": "Admin",
+      "lname": "Admin",
+      "password": "123456",
+      "address": "Address",
+      "dob": "1985-07-03T18:30:00.000Z",
+      "id": 8
+    }
+  ],
+  "employeeList": [
+    {
+      "firstName": "Akash",
+      "lastName": "Allapurkar",
+      "address": "Loni",
+      "birthDate": "1993-10-01T18:30:00.000Z",
+      "mobile": "7276558100",
+      "city": "Pune",
+      "id": 1
+    },
+    {
+      "firstName": "Akshay",
+      "lastName": "Panchal",
+      "address": "Fursingi",
+      "birthDate": "1992-12-03T18:30:00.000Z",
+      "mobile": "7894561230",
+      "city": "Pune",
+      "id": 5
+    },
+    {
+      "firstName": "Yogesh",
+      "lastName": "Bhagat",
+      "address": "Donje",
+      "birthDate": "1990-06-01T18:30:00.000Z",
+      "mobile": "7894561208",
+      "city": "Mumbai",
+      "id": 6
+    },
+    {
+      "firstName": "Sagar",
+      "lastName": "Thokale",
+      "address": "Narhe",
+      "birthDate": "1992-07-18T18:30:00.000Z",
+      "mobile": "7891234560",
+      "city": "Mumbai",
+      "id": 7
+    },
+    {
+      "firstName": "Harshad",
+      "lastName": "Bhangare",
+      "address": "Dattawadi",
+      "birthDate": "1993-07-18T18:30:00.000Z",
+      "mobile": "7891238520",
+      "city": "Nagpur",
+      "id": 8
+    },
+    {
+      "firstName": "Gajanan",
+      "lastName": "Shinde",
+      "address": "Address",
+      "birthDate": "1993-06-09T18:30:00.000Z",
+      "mobile": "9632587410",
+      "city": "Pune",
+      "id": 9
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+<h1 mat-dialog-title>Edit Employee</h1>
+<div class="editModalDiv" mat-dialog-content>
+    <form class="formContentDiv" [formGroup]="myEditForm" novalidate>
+        
+          
+        <mat-form-field class="example-full-width">
+          <input matInput placeholder="First Name" formControlName="firstName" autocomplete="off">
+    
+          <!--Error-->
+          <mat-error>
+            You must provide a First Name
+         </mat-error>
+        </mat-form-field>
+        <mat-form-field class="example-full-width">
+            <input matInput placeholder="Last Name" formControlName="lastName" autocomplete="off">
+    
+             <!--Error-->
+          <mat-error>
+            You must provide a Last Name
+         </mat-error>
+          </mat-form-field>
+        
+          <mat-form-field class="example-full-width">
+            <input matInput placeholder="Address" formControlName="address" autocomplete="off">
+    
+             <!--Error-->
+          <mat-error>
+            You must provide a Address
+         </mat-error>
+          </mat-form-field>
+          <mat-form-field>
+            <input matInput readonly [matDatepicker]="picker" placeholder="Date of birth" formControlName="birthDate"
+            >
+            <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+            <mat-datepicker #picker></mat-datepicker>
+    
+             <!--Error-->
+          <mat-error>
+            You must provide a Birthdate
+         </mat-error>
+          </mat-form-field>
+
+          <mat-form-field class="example-full-width">
+            <input matInput placeholder="Mobile number" formControlName="mobile" autocomplete="off">
+    
+             <!--Error-->
+          <mat-error>
+            You must provide a Mobile Number
+         </mat-error>
+          </mat-form-field>
+
+          <mat-form-field class="example-full-width">
+            <input matInput placeholder="City" formControlName="city" autocomplete="off">
+    
+             <!--Error-->
+          <mat-error>
+            You must provide a City
+         </mat-error>
+          </mat-form-field>
+      </form>
+      <div class="button-wrapper">
+        <button mat-button (click)="submitForm()" [disabled]="!myEditForm.valid">Update</button>
+        <button mat-button (click)="onNoClick()">Cancel</button>
+      </div>
+</div>
